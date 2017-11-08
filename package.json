@@ -42,7 +42,7 @@
     "form",
     "forms",
     "simple-form",
-    "reactive"
+    "form-for"
   ],
   "peerDependencies": {
     "form-for": "^0.3.5",
