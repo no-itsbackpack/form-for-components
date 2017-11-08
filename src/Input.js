@@ -26,7 +26,7 @@ export default class Input extends React.Component<Props> {
 
   render() {
     const { error, onMount, ...props } = { ...this.props };
-    if (error) props['aria-invalid'] = true;
+    if (error) props["aria-invalid"] = true;
 
     return <input ref={this.handleRef} {...props} />;
   }

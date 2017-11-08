@@ -29,7 +29,7 @@ export default class SelectInput extends React.Component<Props> {
 
   render() {
     const { type, error, onMount, options, ...props } = { ...this.props };
-    if (error) props['aria-invalid'] = true;
+    if (error) props["aria-invalid"] = true;
 
     return (
       <select ref={this.handleRef} {...props}>

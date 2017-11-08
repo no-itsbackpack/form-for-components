@@ -63,7 +63,7 @@ export default class Checkbox extends React.Component<Props> {
 
   render() {
     const { defaultValue, value, error, onMount, ...props } = { ...this.props };
-    if (error) props['aria-invalid'] = true;
+    if (error) props["aria-invalid"] = true;
 
     return (
       <input

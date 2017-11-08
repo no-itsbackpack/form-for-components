@@ -1,21 +1,20 @@
 import { field } from "form-for";
 
 export default class User {
-  @field
-  name;
+  @field name;
 
-  @field({ type: 'tel' })
+  @field({ type: "tel" })
   phone;
 
-  @field({ type: 'email' })
+  @field({ type: "email" })
   email;
 
-  @field({ type: 'select', required: true, options: { guest: 'Guest', admin: 'Admin' } })
+  @field({ type: "select", required: true, options: { guest: "Guest", admin: "Admin" } })
   access;
 
-  @field({ type: 'color' })
+  @field({ type: "color" })
   favoriteColor;
 
-  @field({ type: 'radio', options: { employed: 'Currently employed', unemployed: 'Unemployed' } })
+  @field({ type: "radio", options: { employed: "Currently employed", unemployed: "Unemployed" } })
   employment;
 }

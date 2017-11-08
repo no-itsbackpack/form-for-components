@@ -47,7 +47,7 @@ export default class Radio extends React.Component<Props> {
 
   render() {
     const { error, onMount, options, map, ...props } = { ...this.props };
-    if (error) props['aria-invalid'] = true;
+    if (error) props["aria-invalid"] = true;
 
     return Object.keys(options).map(value => this.renderInput(props, value, options[value]));
   }

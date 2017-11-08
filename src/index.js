@@ -37,11 +37,4 @@ function bindFieldComponents() {
   });
 }
 
-export {
-  inputTypes,
-  Checkbox,
-  Input,
-  Radio,
-  Select,
-  bindFieldComponents,
-};
+export { inputTypes, Checkbox, Input, Radio, Select, bindFieldComponents };
