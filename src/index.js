@@ -3,9 +3,16 @@
 import { Field } from "form-for";
 
 import Checkbox from "./Checkbox";
+export type { Props as CheckboxProps } from "./Checkbox";
+
 import Input from "./Input";
+export type { Props as InputProps } from "./Input";
+
 import Radio from "./Radio";
+export type { Props as RadioProps } from "./Radio";
+
 import Select from "./Select";
+export type { Props as SelectProps } from "./Select";
 
 const inputTypes = [
   "color",
