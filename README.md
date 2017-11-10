@@ -11,7 +11,7 @@ Core components for [FormFor](https://github.com/form-for/form-for).
 Just import `{ bindComponents }` from `form-for-components` and call it. All default HTML inputs will be bound :P
 
 ```javascript
-import { bindComponents } from "form-for-components";
+import { bindFieldComponents } from "form-for-components";
 import { Field, Form } from "form-for";
 
 bindFieldComponents();
@@ -28,7 +28,7 @@ const user = new User();
 
 ## Getting Started
 
-Install `form-for-compnents`
+Install `form-for-components`
 
 ```bash
 npm install form-for-components --save
@@ -37,7 +37,7 @@ npm install form-for-components --save
 Bind components to form-for Field
 
 ```javascript
-import { bindComponents } from "form-for-components";
+import { bindFieldComponents } from "form-for-components";
 import { Field, Form } from "form-for";
 
 bindFieldComponents();
@@ -86,5 +86,5 @@ import { inputTypes, Checkbox, Input, Radio, Select, bindComponents } from "form
 
 ## Motivation
 
-[FormFor] can do great things, but on its own still requires a lot of work. These components empower the core HTML inputs
+[FormFor](https://github.com/form-for/form-for) can do great things, but on its own still requires a lot of work. These components empower the core HTML inputs
   to be used with [FormFor](https://github.com/form-for/form-for).
